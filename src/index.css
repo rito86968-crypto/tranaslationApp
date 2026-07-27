@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 :root {
   line-height: 1.5;
   font-weight: 400;
@@ -25,7 +25,10 @@ body {
   min-height: 100vh;
 }
 
-button,select,textarea,option {
+button,
+select,
+textarea,
+option {
   font-family: "DM Sans", serif !important;
 }
 
@@ -33,4 +36,8 @@ select {
   max-width: 150px;
   font-size: 14px;
   font-weight: 600;
+}
+
+div {
+  color: #ffff;
 }

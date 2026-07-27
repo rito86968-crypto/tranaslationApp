@@ -17,7 +17,7 @@ function App() {
       </div>
       <div className='translate-container'>
         <Languagues target="show">
-       <ShowModal />
+          <ShowModal />
         </Languagues>
       </div>
 
