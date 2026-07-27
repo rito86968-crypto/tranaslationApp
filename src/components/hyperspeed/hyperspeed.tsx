@@ -2,7 +2,7 @@ import { BloomEffect, EffectComposer, EffectPass, RenderPass, SMAAEffect, SMAAPr
 import { FC, useEffect, useRef } from 'react';
 import * as THREE from 'three';
 
-import './Hyperspeed.css';
+import './hyperspeed.css';
 
 interface Distortion {
     uniforms: Record<string, { value: any }>;
@@ -100,6 +100,7 @@ const defaultOptions: HyperspeedOptions = {
 function nsin(val: number) {
     return Math.sin(val) * 0.5 + 0.5;
 }
+
 
 const mountainUniforms = {
     uFreq: { value: new THREE.Vector3(3, 6, 10) },
