@@ -1,26 +1,27 @@
-import SubmitModal from './components/submit/submit'
 import './App.css'
-import ShowModal from './components/show/show';
-import Languagues from './components/Languages/lenguagues';
-
+import SubmitModal from './components/submit/submit'
+import ShowModal from './components/show/show'
+import Languagues from './components/Languages/lenguagues'
+import Hyperspeed from './components/hyperspeed/hyperspeed'
 
 function App() {
-
-
-
   return (
     <>
-      <div className='translate-container'>
+      <div className="background">
+        <Hyperspeed />
+      </div>
+
+      <div className="translate-container">
         <Languagues target="submit">
           <SubmitModal />
         </Languagues>
       </div>
-      <div className='translate-container'>
+
+      <div className="translate-container">
         <Languagues target="show">
           <ShowModal />
         </Languagues>
       </div>
-
     </>
   )
 }
