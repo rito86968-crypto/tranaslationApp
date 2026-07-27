@@ -40,4 +40,15 @@ textarea {
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+    color: #ffff;
+    transition: transform 0.12s ease;
+}
+
+.button-translate:hover {
+    transform: translateY(-1px);
+
+}
+
+.button-translate:active {
+    transform: translateY(1px) scale(0.98);
 }
