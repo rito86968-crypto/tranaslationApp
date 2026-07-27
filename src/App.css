@@ -13,8 +13,6 @@
   background-position: center 20%;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 50%;
-  background-color: black;
 }
 
 .translate-container {
