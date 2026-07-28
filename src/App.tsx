@@ -7,7 +7,7 @@ import Languagues from './components/Languages/lenguagues'
 function App() {
   return (
     <>
-      {/*    <div className="background">
+      {/* <div className="background">
         <Hyperspeed />
       </div> */}
 
